@@ -66,7 +66,7 @@ This repository consolidates my testing projects into one organized showcase, de
 
 * **QA / SDET Engineer:** Samir Boussada
 * **GitHub Profile:** [@samir-boussada](https://github.com/samir-boussada)
-* **Email:** [Your Professional Email]
-* **LinkedIn:** [Your LinkedIn Profile URL]
+* **Email:** [boussadasamir15@gmail,com]
+* **LinkedIn:** [Https://www.linkedin.com/in/samir-boussada-5bba06113]
 
 Feel free to explore the repository subfolders, inspect the test artifacts and code, or reach out if you would like to discuss quality assurance opportunities!
