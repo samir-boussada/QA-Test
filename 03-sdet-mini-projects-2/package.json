@@ -1,0 +1,33 @@
+{
+  "name": "sdet-microservices-testing-framework",
+  "version": "1.0.0",
+  "description": "Production SDET Microservice Testing Framework: Contract Testing, Distributed Orchestration, Chaos & Resilience Engineering.",
+  "scripts": {
+    "build": "tsc",
+    "mock:server": "node dist/mock-server/server.js",
+    "test": "playwright test",
+    "test:contracts": "playwright test tests/contracts",
+    "test:integration": "playwright test tests/integration",
+    "test:resilience": "playwright test tests/resilience",
+    "test:report": "playwright show-report"
+  },
+  "keywords": [
+    "sdet",
+    "microservices",
+    "contract-testing",
+    "chaos-testing",
+    "resilience",
+    "playwright",
+    "typescript",
+    "zod"
+  ],
+  "author": "Samir",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "dotenv": "^18.0.8",
+    "typescript": "^7.0.2",
+    "zod": "^4.6.7"
+  }
+}

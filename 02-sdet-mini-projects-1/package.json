@@ -1,0 +1,35 @@
+{
+  "name": "enterprise-qa-playwright-framework",
+  "version": "1.0.0",
+  "description": "Production-grade SDET Test Automation Framework with Playwright, TypeScript, API Contract Validation (Zod), and CI/CD.",
+  "scripts": {
+    "build": "tsc",
+    "test": "playwright test",
+    "test:ui": "playwright test --project=e2e-chromium",
+    "test:ui:headed": "playwright test --project=e2e-chromium --headed",
+    "test:ui:firefox": "playwright test --project=e2e-firefox",
+    "test:api": "playwright test --project=api",
+    "test:all": "playwright test",
+    "test:report": "playwright show-report",
+    "codegen": "playwright codegen https://www.saucedemo.com"
+  },
+  "keywords": [
+    "sdet",
+    "playwright",
+    "typescript",
+    "qa-automation",
+    "e2e-testing",
+    "api-testing",
+    "contract-testing",
+    "zod"
+  ],
+  "author": "SDET Portfolio",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "dotenv": "^18.0.8",
+    "typescript": "^7.0.2",
+    "zod": "^4.6.7"
+  }
+}
